@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    background-color: #222326;
+}
+
+img{
+    width: 35px;
+}
+
+
+header{
+    display: flex;
+    background-color:#1DB954;;
+    justify-content: space-between;
+    padding: 10px 20px;
+    opacity: 0.8;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+    font-size: 16pt;
+    padding: 0,5px;
+    color:  #222326;
+}
+ 
+.menu{
+    display: none;
+}
+@media(max-width: 700px){
+   
+    nav {
+        display: block;
+        padding: 5px 15px;
+
+    } 
+        .menu{
+        display: block;
+    }
+    nav a{
+        display: none;
+    }
+}
+
+
+
+
+
